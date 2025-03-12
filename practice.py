@@ -24,7 +24,6 @@ uploaded = files.upload()
 df = pd.read_csv('aug_train.csv')
 
 
-# print first five row
 df.head()
 
 df.fillna(method='ffill', inplace=True)
